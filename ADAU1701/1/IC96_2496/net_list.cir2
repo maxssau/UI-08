@@ -1,0 +1,9 @@
+0 ICSigma100In1 O_C0_A0_P5_out Link0 O_C0_A0_P6_out Link1
+1 Gain1940AlgNS1 I_C30_A0_P1_in Link0 O_C30_A0_P2_out Link2
+2 Gain1940AlgNS2 I_C33_A0_P1_in Link1 O_C33_A0_P2_out Link4
+3 EQ1940Single3 I_C86_A0_P1_in Link2 O_C86_A0_P2_out Link3
+4 EQ1940Single4 I_C89_A0_P1_in Link4 O_C89_A0_P2_out Link5
+5 PEQ1Chan1 I_C23_A0_P1_in Link3 O_C23_A0_P2_out Link7
+6 PEQ1Chan2 I_C26_A0_P1_in Link5 O_C26_A0_P2_out Link6
+7 ICSigma100Out2 I_C13_A0_P1_in Link6
+8 ICSigma100Out1 I_C11_A0_P1_in Link7

@@ -1,0 +1,28 @@
+0 ICSigma100In1 O_C0_A0_P5_out Link16 O_C0_A0_P6_out Link17
+1 sin_lookupAlg19401 O_C101_A0_P1_out Link21
+2 DCInpAlg1 O_C222_A0_P1_out Link22
+3 DCInpAlg4 O_C308_A0_P1_out Link25
+4 WhiteNAlgNew1 O_C361_A0_P1_out Link0
+5 WhiteNAlgNew2 O_C383_A0_P1_out Link1
+6 DCInpAlg5 O_C204_A0_P1_out Link28
+7 Gain1940AlgNS3 I_C363_A0_P1_in Link0 O_C363_A0_P2_out Link20
+8 Gain1940AlgNS4 I_C405_A0_P1_in Link1 O_C405_A0_P2_out Link12
+9 DCBlockAlgDoublePrec1 I_C58_A0_P1_in Link16 O_C58_A0_P2_out Link18
+10 DCBlockAlgDoublePrec2 I_C61_A0_P1_in Link17 O_C61_A0_P2_out Link19
+11 Gain1940AlgNS6 I_C39_A0_P1_in Link12 O_C39_A0_P2_out Link13
+12 EQ1940Dual1 I_C46_A0_P1_in Link18 I_C46_A0_P2_in Link19 O_C46_A0_P3_out Link14 O_C46_A0_P4_out Link15
+13 Gain1940AlgNS1 I_C15_A0_P1_in Link14 O_C15_A0_P2_out Link10
+14 Gain1940AlgNS2 I_C22_A0_P1_in Link15 O_C22_A0_P2_out Link11
+15 DCinputmuxAlg1 I_C364_A0_P2_in Link22 I_C364_A0_P3_in Link10 I_C364_A0_P4_in Link21 O_C364_A0_P1_out Link24
+16 DCinputmuxAlg2 I_C386_A0_P2_in Link22 I_C386_A0_P3_in Link11 I_C386_A0_P4_in Link21 O_C386_A0_P1_out Link23
+17 PhatStereoAlg19401 I_C121_A0_P1_in Link24 I_C121_A0_P2_in Link23 O_C121_A0_P3_out Link9 O_C121_A0_P4_out Link8
+18 DCinputmuxAlg6 I_C299_A0_P2_in Link25 I_C299_A0_P3_in Link23 I_C299_A0_P4_in Link8 O_C299_A0_P1_out Link2
+19 DCinputmuxAlg5 I_C294_A0_P2_in Link25 I_C294_A0_P3_in Link24 I_C294_A0_P4_in Link9 O_C294_A0_P1_out Link7
+20 TwoChanXMixer1940Alg5 I_C373_A0_P1_in Link20 I_C373_A0_P2_in Link7 O_C373_A0_P3_out Link26
+21 TwoChanXMixer1940Alg6 I_C397_A0_P1_in Link2 I_C397_A0_P2_in Link13 O_C397_A0_P3_out Link27
+22 EQ1940Single1 I_C72_A0_P1_in Link26 O_C72_A0_P2_out Link3
+23 EQ1940Single2 I_C79_A0_P1_in Link27 O_C79_A0_P2_out Link4
+24 DCinputmuxAlg10 I_C117_A0_P2_in Link28 I_C117_A0_P3_in Link27 I_C117_A0_P4_in Link4 O_C117_A0_P1_out Link6
+25 DCinputmuxAlg9 I_C56_A0_P2_in Link28 I_C56_A0_P3_in Link26 I_C56_A0_P4_in Link3 O_C56_A0_P1_out Link5
+26 ICSigma100Out1 I_C11_A0_P1_in Link5
+27 ICSigma100Out2 I_C13_A0_P1_in Link6

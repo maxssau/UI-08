@@ -1,0 +1,31 @@
+0 ICSigma100In1 O_C0_A0_P5_out Link23 O_C0_A0_P6_out Link22
+1 SwitchAlg1 O_C325_A0_P1_out Link28
+2 SwitchAlg2 O_C327_A0_P1_out Link29
+3 SwitchAlg3 O_C333_A0_P1_out Link30
+4 DCBlockAlgDoublePrec2 I_C53_A0_P1_in Link22 O_C53_A0_P2_out Link3
+5 DCBlockAlgDoublePrec1 I_C50_A0_P1_in Link23 O_C50_A0_P2_out Link2
+6 EQ1940Dual1 I_C15_A0_P1_in Link2 I_C15_A0_P2_in Link3 O_C15_A0_P3_out Link0 O_C15_A0_P4_out Link1
+7 Gain1940AlgNS1 I_C30_A0_P1_in Link0 O_C30_A0_P2_out Link31
+8 Gain1940AlgNS2 I_C33_A0_P1_in Link1 O_C33_A0_P2_out Link32
+9 EQ1940Single1 I_C72_A0_P1_in Link31 O_C72_A0_P2_out Link6
+10 EQ1940Single2 I_C79_A0_P1_in Link32 O_C79_A0_P2_out Link7
+11 PEQ1Chan1 I_C23_A0_P1_in Link6 O_C23_A0_P2_out Link4
+12 PEQ1Chan2 I_C26_A0_P1_in Link7 O_C26_A0_P2_out Link5
+13 PEQ1Chan3 I_C41_A0_P1_in Link4 O_C41_A0_P2_out Link8
+14 PEQ1Chan4 I_C65_A0_P1_in Link5 O_C65_A0_P2_out Link9
+15 EQ1940Single3 I_C86_A0_P1_in Link8 O_C86_A0_P2_out Link10
+16 EQ1940Single4 I_C89_A0_P1_in Link9 O_C89_A0_P2_out Link12
+17 IndexDemuxAlg1 I_C109_A0_P1_in Link28 I_C109_A0_P2_in Link10 O_C109_A0_P3_out Link11 O_C109_A0_P4_out Link24
+18 IndexDemuxAlg2 I_C127_A0_P1_in Link28 I_C127_A0_P2_in Link12 O_C127_A0_P3_out Link13 O_C127_A0_P4_out Link25
+19 MultCtrlDelGrowAlg1 I_C146_A0_P1_in Link25 O_C146_A0_P2_out Link14
+20 MultCtrlDelGrowAlg2 I_C149_A0_P1_in Link24 O_C149_A0_P2_out Link15
+21 ICSigma100Out3 I_C22_A0_P1_in Link24
+22 TwoChanXMixer1940Alg1 I_C166_A0_P1_in Link24 I_C166_A0_P2_in Link14 O_C166_A0_P3_out Link16
+23 TwoChanXMixer1940Alg2 I_C170_A0_P1_in Link25 I_C170_A0_P2_in Link15 O_C170_A0_P3_out Link17
+24 DCinputmuxAlgSlew2 I_C120_A0_P2_in Link29 I_C120_A0_P3_in Link13 I_C120_A0_P4_in Link17 O_C120_A0_P1_out Link26
+25 DCinputmuxAlgSlew1 I_C104_A0_P2_in Link29 I_C104_A0_P3_in Link11 I_C104_A0_P4_in Link16 O_C104_A0_P1_out Link27
+26 PhatStereoAlg19401 I_C136_A0_P1_in Link27 I_C136_A0_P2_in Link26 O_C136_A0_P3_out Link18 O_C136_A0_P4_out Link19
+27 DCinputmuxAlgSlew3 I_C197_A0_P2_in Link30 I_C197_A0_P3_in Link27 I_C197_A0_P4_in Link18 O_C197_A0_P1_out Link20
+28 DCinputmuxAlgSlew4 I_C202_A0_P2_in Link30 I_C202_A0_P3_in Link26 I_C202_A0_P4_in Link19 O_C202_A0_P1_out Link21
+29 ICSigma100Out1 I_C11_A0_P1_in Link20
+30 ICSigma100Out2 I_C13_A0_P1_in Link21

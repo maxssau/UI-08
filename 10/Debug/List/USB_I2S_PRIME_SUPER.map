@@ -1,0 +1,1034 @@
+###############################################################################
+#
+# IAR ELF Linker V8.40.1.212/W32 for ARM                  26/Mar/2020  23:24:42
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Exe\USB_I2S_PRIME_SUPER.out
+#    Map file     =
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\List\USB_I2S_PRIME_SUPER.map
+#    Command line =
+#        -f g:\temp\EW4421.tmp
+#        (G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\audio_configuration.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\audio_speaker_node.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\audio_usb_nodes.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\audio_usb_playback_session.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\main.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\SAI.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\startup_stm32f446xx.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_adc.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_adc_ex.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_can.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_cec.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_cortex.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_crc.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_cryp.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_cryp_ex.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_dac.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_dac_ex.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_dcmi.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_dcmi_ex.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_dfsdm.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_dma.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_dma2d.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_dma_ex.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_dsi.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_eth.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_flash.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_flash_ex.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_flash_ramfunc.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_fmpi2c.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_fmpi2c_ex.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_gpio.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_hash.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_hash_ex.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_hcd.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_i2c.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_i2c_ex.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_i2s.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_i2s_ex.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_irda.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_iwdg.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_lptim.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_ltdc.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_ltdc_ex.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_mmc.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_msp_template.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_nand.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_nor.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_pccard.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_pcd.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_pcd_ex.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_pwr.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_pwr_ex.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_qspi.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_rcc.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_rcc_ex.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_rng.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_rtc.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_rtc_ex.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_sai.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_sai_ex.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_sd.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_sdram.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_smartcard.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_spdifrx.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_spi.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_sram.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_tim.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_tim_ex.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_timebase_tim_template.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_uart.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_usart.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_hal_wwdg.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_it.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_ll_adc.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_ll_crc.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_ll_dac.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_ll_dma.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_ll_dma2d.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_ll_exti.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_ll_fmc.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_ll_fsmc.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_ll_gpio.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_ll_i2c.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_ll_lptim.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_ll_pwr.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_ll_rcc.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_ll_rng.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_ll_rtc.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_ll_sdmmc.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_ll_spi.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_ll_tim.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_ll_usart.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_ll_usb.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\stm32f4xx_ll_utils.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\system_stm32f4xx.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\usb_audio_descriptors.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\usbd_audio.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\usbd_audio_if.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\usbd_conf.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\usbd_core_ex.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\usbd_ctlreq.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\usbd_desc.o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj\usbd_ioreq.o
+#        --no_out_extension -o
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Exe\USB_I2S_PRIME_SUPER.out
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\List\USB_I2S_PRIME_SUPER.map
+#        --config
+#        G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\stm32f446_flash_Playback.icf
+#        --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = DLMalloc
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The advanced heap was selected because the application calls memory
+allocation functions outside of system library functions, and there
+are calls to deallocation functions in the application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x807'ffff] { ro };
+define block CSTACK with size = 2K, alignment = 8 { };
+define block HEAP with size = 40K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2001'ffff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                       0x1c4
+  .intvec            ro code   0x800'0000   0x1c4  startup_stm32f446xx.o [1]
+                             - 0x800'01c4   0x1c4
+
+"P1":                                      0x8179
+  .text              ro code   0x800'01c4  0x149c  dlmalloc.o [2]
+  .text              ro code   0x800'1660     0x6  abort.o [2]
+  .text              ro code   0x800'1666    0x3a  zero_init3.o [4]
+  .text              ro code   0x800'16a0    0x2c  xgetmemchunk.o [2]
+  .text              ro code   0x800'16cc     0xc  XXexit.o [4]
+  .text              ro code   0x800'16d8   0xfaa  xprintffull_nomb.o [2]
+  .text              ro code   0x800'2682     0xa  xsprout.o [2]
+  .text              ro code   0x800'268c    0x16  strchr.o [4]
+  .text              ro code   0x800'26a4    0x40  xfail_s.o [2]
+  .text              ro code   0x800'26e4    0x36  strlen.o [4]
+  .text              ro code   0x800'271c    0x58  memchr.o [4]
+  .text              ro code   0x800'2774    0xa6  ABImemcpy.o [4]
+  .text              ro code   0x800'281c    0x70  frexp.o [3]
+  .text              ro code   0x800'288c    0x2e  DblCmpLe.o [3]
+  .text              ro code   0x800'28bc    0x2e  DblCmpGe.o [3]
+  .text              ro code   0x800'28ec   0x13a  ldexp.o [3]
+  .text              ro code   0x800'2a28    0x3a  DblToS32.o [3]
+  .text              ro code   0x800'2a64    0x22  S32ToDbl.o [3]
+  .text              ro code   0x800'2a88    0xe2  DblSub.o [3]
+  .text              ro code   0x800'2b6c   0x246  DblDiv.o [3]
+  .text              ro code   0x800'2db4    0x28  DblToU32.o [3]
+  .text              ro code   0x800'2ddc    0x1a  U32ToDbl.o [3]
+  .text              ro code   0x800'2df8   0x1a2  DblMul.o [3]
+  .text              ro code   0x800'2f9c   0x230  I64DivMod.o [4]
+  .text              ro code   0x800'31cc   0x16a  DblAdd.o [3]
+  .text              ro code   0x800'3338     0x2  I64DivZer.o [4]
+  .text              ro code   0x800'333c   0x958  stm32f4xx_ll_usb.o [1]
+  .text              ro code   0x800'3c94    0x28  stm32f4xx_hal.o [1]
+  .text              ro code   0x800'3cbc     0xc  stm32f4xx_hal.o [1]
+  .text              ro code   0x800'3cc8   0x7c8  stm32f4xx_hal_pcd.o [1]
+  .text              ro code   0x800'4490   0x258  usbd_conf.o [1]
+  .text              ro code   0x800'46e8    0x70  stm32f4xx_hal_pcd_ex.o [1]
+  .text              ro code   0x800'4758    0xa0  stm32f4xx_hal_cortex.o [1]
+  .text              ro code   0x800'47f8   0x280  usbd_core_ex.o [1]
+  .text              ro code   0x800'4a78     0x6  ABImemclr4.o [4]
+  .text              ro code   0x800'4a80    0x60  usb_audio_descriptors.o [1]
+  .text              ro code   0x800'4ae0   0x7b4  main.o [1]
+  .text              ro code   0x800'5294   0x4ea  usbd_ctlreq.o [1]
+  .text              ro code   0x800'577e    0x60  usbd_ioreq.o [1]
+  .text              ro code   0x800'57e0    0x32  ABImemset48.o [4]
+  .text              ro code   0x800'5814   0x19c  audio_configuration.o [1]
+  .text              ro code   0x800'59b0   0x388  stm32f4xx_hal_i2c.o [1]
+  .text              ro code   0x800'5d38    0x16  stm32f4xx_hal.o [1]
+  .text              ro code   0x800'5d50   0x6ac  usbd_audio.o [1]
+  .text              ro code   0x800'63fc    0x40  sprintf.o [2]
+  .text              ro code   0x800'643c   0x1c0  stm32f4xx_hal_gpio.o [1]
+  .text              ro code   0x800'65fc    0x94  stm32f4xx_hal_timebase_tim_template.o [1]
+  .text              ro code   0x800'6690   0x29c  SAI.o [1]
+  .text              ro code   0x800'692c    0x60  stm32f4xx_hal_rcc.o [1]
+  .text              ro code   0x800'698c     0x2  stm32f4xx_hal_msp_template.o [1]
+  .text              ro code   0x800'6990     0x6  ABImemclr.o [4]
+  .text              ro code   0x800'6996     0x4  heaptramp0.o [2]
+  .text              ro code   0x800'699c   0x25a  stm32f4xx_hal_tim.o [1]
+  .text              ro code   0x800'6bf8    0x10  stm32f4xx_hal.o [1]
+  .text              ro code   0x800'6c08    0x5e  ABImemset.o [4]
+  .text              ro code   0x800'6c66     0x2  stm32f4xx_hal_tim.o [1]
+  .text              ro code   0x800'6c68     0x2  stm32f4xx_hal_tim.o [1]
+  .text              ro code   0x800'6c6a     0x2  stm32f4xx_hal_tim.o [1]
+  .text              ro code   0x800'6c6c     0x2  stm32f4xx_hal_tim_ex.o [1]
+  .text              ro code   0x800'6c6e     0x2  stm32f4xx_hal_tim.o [1]
+  .text              ro code   0x800'6c70     0x2  stm32f4xx_hal_tim_ex.o [1]
+  .text              ro code   0x800'6c74   0x3e4  audio_speaker_node.o [1]
+  .text              ro code   0x800'7058   0x3b4  audio_usb_nodes.o [1]
+  .text              ro code   0x800'740c   0x31c  audio_usb_playback_session.o [1]
+  .rodata            const     0x800'7728   0x2a8  usb_audio_descriptors.o [1]
+  .text              ro code   0x800'79d0    0xc4  usbd_desc.o [1]
+  .text              ro code   0x800'7a94    0x78  lz77_init_single.o [4]
+  .text              ro code   0x800'7b0c    0x6c  stm32f4xx_it.o [1]
+  .text              ro code   0x800'7b78    0x42  usbd_audio_if.o [1]
+  .text              ro code   0x800'7bbc    0x40  system_stm32f4xx.o [1]
+  .rodata            const     0x800'7bfc    0x28  usb_audio_descriptors.o [1]
+  .text              ro code   0x800'7c24    0x28  data_init.o [4]
+  .iar.init_table    const     0x800'7c4c    0x20  - Linker created -
+  .rodata            const     0x800'7c6c    0x20  usb_audio_descriptors.o [1]
+  .rodata            const     0x800'7c8c    0x20  usb_audio_descriptors.o [1]
+  .text              ro code   0x800'7cac    0x1e  cmain.o [4]
+  .text              ro code   0x800'7cca     0x4  low_level_init.o [2]
+  .text              ro code   0x800'7cce     0x4  exit.o [2]
+  .text              ro code   0x800'7cd4     0xa  cexit.o [4]
+  .rodata            const     0x800'7ce0    0x1c  usb_audio_descriptors.o [1]
+  .text              ro code   0x800'7cfc    0x10  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7d0c     0xc  cstartup_M.o [4]
+  .rodata            const     0x800'7d18     0x8  system_stm32f4xx.o [1]
+  .rodata            const     0x800'7d20     0x8  xprintffull_nomb.o [2]
+  .text              ro code   0x800'7d28     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7d2c     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7d30     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7d34     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7d38     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7d3c     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7d40     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7d44     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7d48     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7d4c     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7d50     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7d54     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7d58     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7d5c     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7d60     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7d64     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7d68     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7d6c     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7d70     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7d74     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7d78     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7d7c     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7d80     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7d84     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7d88     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7d8c     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7d90     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7d94     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7d98     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7d9c     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7da0     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7da4     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7da8     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7dac     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7db0     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7db4     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7db8     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7dbc     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7dc0     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7dc4     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7dc8     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7dcc     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7dd0     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7dd4     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7dd8     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7ddc     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7de0     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7de4     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7de8     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7dec     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7df0     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7df4     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7df8     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7dfc     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7e00     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7e04     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7e08     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7e0c     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7e10     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7e14     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7e18     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7e1c     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7e20     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7e24     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7e28     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7e2c     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7e30     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7e34     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7e38     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7e3c     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7e40     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7e44     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7e48     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7e4c     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7e50     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7e54     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7e58     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7e5c     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7e60     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7e64     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7e68     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7e6c     0x4  startup_stm32f446xx.o [1]
+  .text              ro code   0x800'7e70     0x4  startup_stm32f446xx.o [1]
+  .rodata            const     0x800'7e74     0x0  zero_init3.o [4]
+  .rodata            const     0x800'7e74     0x0  lz77_init_single.o [4]
+  Initializer bytes  const     0x800'7e74   0x4c9  <for P2-1>
+                             - 0x800'833d  0x8179
+
+"P2", part 1 of 3:                         0x2cf8
+  P2-1                        0x2000'0000  0x2cf8  <Init block>
+    .data            inited   0x2000'0000    0x10  audio_usb_nodes.o [1]
+    .data            inited   0x2000'0010   0x2fc  main.o [1]
+    .data            inited   0x2000'030c   0x508  main.o [1]
+    .data            inited   0x2000'0814  0x241c  main.o [1]
+    .data            inited   0x2000'2c30     0xc  stm32f4xx_hal.o [1]
+    .data            inited   0x2000'2c3c     0x4  system_stm32f4xx.o [1]
+    .data            inited   0x2000'2c40    0x10  usb_audio_descriptors.o [1]
+    .data            inited   0x2000'2c50    0x38  usbd_audio.o [1]
+    .data            inited   0x2000'2c88     0xc  usbd_audio.o [1]
+    .data            inited   0x2000'2c94    0x14  usbd_audio_if.o [1]
+    .data            inited   0x2000'2ca8    0x1c  usbd_desc.o [1]
+    .data            inited   0x2000'2cc4    0x14  usbd_desc.o [1]
+    .data            inited   0x2000'2cd8     0x4  usbd_desc.o [1]
+    .data            inited   0x2000'2cdc    0x1c  usbd_desc.o [1]
+                            - 0x2000'2cf8  0x2cf8
+
+"P2", part 2 of 3:                          0x908
+  .bss               zero     0x2000'2cf8   0x3fc  usbd_conf.o [1]
+  .bss               zero     0x2000'30f4   0x1d8  dlmalloc.o [2]
+  .bss               zero     0x2000'32cc   0x100  usbd_desc.o [1]
+  .bss               zero     0x2000'33cc    0x7c  audio_usb_playback_session.o [1]
+  .bss               zero     0x2000'3448    0x68  main.o [1]
+  .bss               zero     0x2000'34b0    0x54  audio_usb_playback_session.o [1]
+  .bss               zero     0x2000'3504    0x3c  stm32f4xx_hal_timebase_tim_template.o [1]
+  .bss               zero     0x2000'3540    0x34  audio_usb_playback_session.o [1]
+  .bss               zero     0x2000'3574    0x20  usbd_audio_if.o [1]
+  .bss               zero     0x2000'3594    0x18  main.o [1]
+  .bss               zero     0x2000'35ac    0x18  main.o [1]
+  .bss               zero     0x2000'35c4    0x18  dlmalloc.o [2]
+  .bss               zero     0x2000'35dc     0x8  audio_usb_playback_session.o [1]
+  .bss               zero     0x2000'35e4     0x8  usbd_audio.o [1]
+  .bss               zero     0x2000'35ec     0x4  audio_speaker_node.o [1]
+  .bss               zero     0x2000'35f0     0x4  xgetmemchunk.o [2]
+  .bss               zero     0x2000'35f4     0x4  xfail_s.o [2]
+  .bss               zero     0x2000'35f8     0x2  audio_configuration.o [1]
+  .bss               zero     0x2000'35fa     0x2  SAI.o [1]
+  .bss               zero     0x2000'35fc     0x1  usbd_ctlreq.o [1]
+                            - 0x2000'35fd   0x905
+
+"P2", part 3 of 3:                         0xa800
+  CSTACK                      0x2000'3600   0x800  <Block>
+    CSTACK           uninit   0x2000'3600   0x800  <Block tail>
+  HEAP                        0x2000'3e00  0xa000  <Block>
+    HEAP             uninit   0x2000'3e00  0xa000  <Block tail>
+                            - 0x2000'de00  0xa800
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'833d   0x807'ffff  0x7'7cc3
+  0x2000'de00  0x2001'ffff  0x1'2200
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x905:
+          0x2000'2cf8   0x905
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x4c9 (10% of destination):
+           0x800'7e74   0x4c9
+    1 destination range, total size 0x2cf8:
+          0x2000'0000  0x2cf8
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                                 ro code  ro data  rw data
+    ------                                 -------  -------  -------
+command line/config:
+    ----------------------------------------------------------------
+    Total:
+
+G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj: [1]
+    SAI.o                                      668                 2
+    audio_configuration.o                      412                 2
+    audio_speaker_node.o                       996                 4
+    audio_usb_nodes.o                          948        1       16
+    audio_usb_playback_session.o               796               268
+    main.o                                   1'972    1'202   11'448
+    startup_stm32f446xx.o                      800
+    stm32f4xx_hal.o                             90        1       12
+    stm32f4xx_hal_cortex.o                     160
+    stm32f4xx_hal_gpio.o                       448
+    stm32f4xx_hal_i2c.o                        904
+    stm32f4xx_hal_msp_template.o                 2
+    stm32f4xx_hal_pcd.o                      1'992
+    stm32f4xx_hal_pcd_ex.o                     112
+    stm32f4xx_hal_rcc.o                         96
+    stm32f4xx_hal_tim.o                        610
+    stm32f4xx_hal_tim_ex.o                       4
+    stm32f4xx_hal_timebase_tim_template.o      148                60
+    stm32f4xx_it.o                             108
+    stm32f4xx_ll_usb.o                       2'392
+    system_stm32f4xx.o                          64        9        4
+    usb_audio_descriptors.o                     96      814       16
+    usbd_audio.o                             1'708        7       76
+    usbd_audio_if.o                             66        2       52
+    usbd_conf.o                                600             1'020
+    usbd_core_ex.o                             640
+    usbd_ctlreq.o                            1'258                 1
+    usbd_desc.o                                196        9      336
+    usbd_ioreq.o                                96
+    ----------------------------------------------------------------
+    Total:                                  18'382    2'045   13'317
+
+dl7M_tln.a: [2]
+    abort.o                                      6
+    dlmalloc.o                               5'276               496
+    exit.o                                       4
+    heaptramp0.o                                 4
+    low_level_init.o                             4
+    sprintf.o                                   64
+    xfail_s.o                                   64                 4
+    xgetmemchunk.o                              44                 4
+    xprintffull_nomb.o                       4'010        8
+    xsprout.o                                   10
+    ----------------------------------------------------------------
+    Total:                                   9'486        8      504
+
+m7M_tl.a: [3]
+    DblAdd.o                                   362
+    DblCmpGe.o                                  46
+    DblCmpLe.o                                  46
+    DblDiv.o                                   582
+    DblMul.o                                   418
+    DblSub.o                                   226
+    DblToS32.o                                  58
+    DblToU32.o                                  40
+    S32ToDbl.o                                  34
+    U32ToDbl.o                                  26
+    frexp.o                                    112
+    ldexp.o                                    314
+    ----------------------------------------------------------------
+    Total:                                   2'264
+
+rt7M_tl.a: [4]
+    ABImemclr.o                                  6
+    ABImemclr4.o                                 6
+    ABImemcpy.o                                166
+    ABImemset.o                                 94
+    ABImemset48.o                               50
+    I64DivMod.o                                560
+    I64DivZer.o                                  2
+    XXexit.o                                    12
+    cexit.o                                     10
+    cmain.o                                     30
+    cstartup_M.o                                12
+    data_init.o                                 40
+    lz77_init_single.o                         120
+    memchr.o                                    88
+    strchr.o                                    22
+    strlen.o                                    54
+    zero_init3.o                                58
+    ----------------------------------------------------------------
+    Total:                                   1'330
+
+    Gaps                                        48        2
+    Linker created                                       32   43'008
+--------------------------------------------------------------------
+    Grand Total:                            31'510    2'087   56'829
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address    Size  Type      Object
+-----                       -------    ----  ----      ------
+.iar.init_table$$Base    0x800'7c4c           --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'7c6c           --   Gb  - Linker created -
+?main                    0x800'7cad          Code  Gb  cmain.o [4]
+APBPrescTable            0x800'7d18     0x8  Data  Gb  system_stm32f4xx.o [1]
+AUDIO_Desc              0x2000'2ca8    0x1c  Data  Gb  usbd_desc.o [1]
+AUDIO_PlaybackSessionInit
+                         0x800'740d   0x106  Code  Gb  audio_usb_playback_session.o [1]
+AUDIO_SPEAKER_USER_Init
+                         0x800'6c75    0x8a  Code  Gb  audio_speaker_node.o [1]
+AUDIO_SpeakerChangeFrequency
+                         0x800'6f31     0x8  Code  Gb  audio_speaker_node.o [1]
+AUDIO_SpeakerChangeResolution
+                         0x800'704b     0xe  Code  Gb  audio_speaker_node.o [1]
+AUDIO_SpeakerGetLastReadCount
+                         0x800'701d    0x2e  Code  Lc  audio_speaker_node.o [1]
+AUDIO_SpeakerHandler    0x2000'35ec     0x4  Data  Lc  audio_speaker_node.o [1]
+AUDIO_SpeakerInitInjectionsParams
+                         0x800'6f41    0xb4  Code  Lc  audio_speaker_node.o [1]
+AUDIO_SpeakerMute        0x800'6ffd     0xc  Code  Lc  audio_speaker_node.o [1]
+AUDIO_SpeakerSetVolume   0x800'7009     0x4  Code  Lc  audio_speaker_node.o [1]
+AUDIO_SpeakerStart       0x800'6f09    0x1c  Code  Lc  audio_speaker_node.o [1]
+AUDIO_SpeakerStartReadCount
+                         0x800'700d    0x10  Code  Lc  audio_speaker_node.o [1]
+AUDIO_SpeakerStop        0x800'6f25     0xa  Code  Lc  audio_speaker_node.o [1]
+AUDIO_USB_DeInit         0x800'7ba5     0x4  Code  Lc  usbd_audio_if.o [1]
+AUDIO_USB_GetConfigDesc
+                         0x800'7bad     0xe  Code  Lc  usbd_audio_if.o [1]
+AUDIO_USB_GetState       0x800'7ba9     0x4  Code  Lc  usbd_audio_if.o [1]
+AUDIO_USB_Init           0x800'7b79    0x26  Code  Lc  usbd_audio_if.o [1]
+AUDIO_USB_Session_Sof_Received
+                         0x800'76c1    0x4e  Code  Lc  audio_usb_playback_session.o [1]
+AUDIO_USB_Session_Sof_Received::sof_counter
+                        0x2000'35dc     0x2  Data  Lc  audio_usb_playback_session.o [1]
+AUDIO_USB_Session_Sof_Received::total_received_sub_samples
+                        0x2000'35e0     0x4  Data  Lc  audio_usb_playback_session.o [1]
+AudioChangeFrequency     0x800'583b    0x2e  Code  Gb  audio_configuration.o [1]
+AudioChangeResolution    0x800'58b5    0x22  Code  Gb  audio_configuration.o [1]
+AudioConfig_Init         0x800'596d     0xa  Code  Gb  audio_configuration.o [1]
+AudioConfiguration      0x2000'35f8     0x1  Data  Lc  audio_configuration.o [1]
+AudioOutInit             0x800'58e1    0x52  Code  Gb  audio_configuration.o [1]
+AudioOutMute             0x800'58d7     0xa  Code  Gb  audio_configuration.o [1]
+BSP_AUDIO_OUT_TransferComplete_CallBack
+                         0x800'6cff   0x208  Code  Gb  audio_speaker_node.o [1]
+BusFault_Handler         0x800'7b13     0x2  Code  Gb  stm32f4xx_it.o [1]
+CSTACK$$Base            0x2000'3600           --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'3e00           --   Gb  - Linker created -
+ConfigGPIOs_Init         0x800'5989     0x2  Code  Gb  audio_configuration.o [1]
+DESCRIPTOR_SIZE          0x800'4ad8     0x8  Data  Gb  usb_audio_descriptors.o [1]
+DMA2_Stream5_IRQHandler
+                         0x800'7b27    0x42  Code  Gb  stm32f4xx_it.o [1]
+DebugMon_Handler         0x800'7b19     0x2  Code  Gb  stm32f4xx_it.o [1]
+ERR_I2C                 0x2000'34a8     0x4  Data  Gb  main.o [1]
+Error_Handler            0x800'520f     0x2  Code  Gb  main.o [1]
+ExtPowerDisable          0x800'597d     0xc  Code  Gb  audio_configuration.o [1]
+ExtSyncSelectSource      0x800'5869    0x44  Code  Gb  audio_configuration.o [1]
+GetAudioConfiguration    0x800'594d     0x6  Code  Gb  audio_configuration.o [1]
+GetProductString         0x800'4ab5     0xe  Code  Gb  usb_audio_descriptors.o [1]
+HAL_Delay                0x800'3c95    0x28  Code  Wk  stm32f4xx_hal.o [1]
+HAL_GPIO_Init            0x800'643d   0x198  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GetTick              0x800'3cbd     0xc  Code  Wk  stm32f4xx_hal.o [1]
+HAL_I2C_Init             0x800'59b1    0xd6  Code  Gb  stm32f4xx_hal_i2c.o [1]
+HAL_I2C_Master_Transmit
+                         0x800'5a87   0x27c  Code  Gb  stm32f4xx_hal_i2c.o [1]
+HAL_IncTick              0x800'6bf9    0x10  Code  Wk  stm32f4xx_hal.o [1]
+HAL_Init                 0x800'5d39    0x16  Code  Gb  stm32f4xx_hal.o [1]
+HAL_InitTick             0x800'65fd    0x7a  Code  Gb  stm32f4xx_hal_timebase_tim_template.o [1]
+HAL_MspInit              0x800'698d     0x2  Code  Gb  stm32f4xx_hal_msp_template.o [1]
+HAL_NVIC_EnableIRQ       0x800'47cd    0x18  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority     0x800'4773    0x5a  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                         0x800'4759    0x1a  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_PCDEx_ActivateLPM    0x800'4731    0x26  Code  Gb  stm32f4xx_hal_pcd_ex.o [1]
+HAL_PCDEx_LPM_Callback   0x800'4757     0x2  Code  Wk  stm32f4xx_hal_pcd_ex.o [1]
+HAL_PCDEx_SetRxFiFo      0x800'4729     0x8  Code  Gb  stm32f4xx_hal_pcd_ex.o [1]
+HAL_PCDEx_SetTxFiFo      0x800'46e9    0x40  Code  Gb  stm32f4xx_hal_pcd_ex.o [1]
+HAL_PCD_ConnectCallback
+                         0x800'4545     0x8  Code  Gb  usbd_conf.o [1]
+HAL_PCD_DataInStageCallback
+                         0x800'44e9    0x12  Code  Gb  usbd_conf.o [1]
+HAL_PCD_DataOutStageCallback
+                         0x800'44d5    0x14  Code  Gb  usbd_conf.o [1]
+HAL_PCD_DisconnectCallback
+                         0x800'454d     0x8  Code  Gb  usbd_conf.o [1]
+HAL_PCD_EP_Close         0x800'42eb    0x40  Code  Gb  stm32f4xx_hal_pcd.o [1]
+HAL_PCD_EP_ClrStall      0x800'4417    0x4e  Code  Gb  stm32f4xx_hal_pcd.o [1]
+HAL_PCD_EP_Flush         0x800'4465    0x2c  Code  Gb  stm32f4xx_hal_pcd.o [1]
+HAL_PCD_EP_GetRxCount    0x800'435b    0x14  Code  Gb  stm32f4xx_hal_pcd.o [1]
+HAL_PCD_EP_Open          0x800'428f    0x5c  Code  Gb  stm32f4xx_hal_pcd.o [1]
+HAL_PCD_EP_Receive       0x800'432b    0x30  Code  Gb  stm32f4xx_hal_pcd.o [1]
+HAL_PCD_EP_SetStall      0x800'43b5    0x62  Code  Gb  stm32f4xx_hal_pcd.o [1]
+HAL_PCD_EP_Transmit      0x800'436f    0x2c  Code  Gb  stm32f4xx_hal_pcd.o [1]
+HAL_PCD_IRQHandler       0x800'3dab   0x4be  Code  Gb  stm32f4xx_hal_pcd.o [1]
+HAL_PCD_ISOINIncompleteCallback
+                         0x800'453d     0x8  Code  Gb  usbd_conf.o [1]
+HAL_PCD_ISOOUTIncompleteCallback
+                         0x800'4535     0x8  Code  Gb  usbd_conf.o [1]
+HAL_PCD_Init             0x800'3cc9    0xbe  Code  Gb  stm32f4xx_hal_pcd.o [1]
+HAL_PCD_MspInit          0x800'4491    0x38  Code  Gb  usbd_conf.o [1]
+HAL_PCD_ResetCallback    0x800'4503    0x22  Code  Gb  usbd_conf.o [1]
+HAL_PCD_ResumeCallback   0x800'452d     0x8  Code  Gb  usbd_conf.o [1]
+HAL_PCD_SOFCallback      0x800'44fb     0x8  Code  Gb  usbd_conf.o [1]
+HAL_PCD_SetAddress       0x800'4271    0x1e  Code  Gb  stm32f4xx_hal_pcd.o [1]
+HAL_PCD_SetupStageCallback
+                         0x800'44c9     0xc  Code  Gb  usbd_conf.o [1]
+HAL_PCD_Start            0x800'3d87    0x24  Code  Gb  stm32f4xx_hal_pcd.o [1]
+HAL_PCD_SuspendCallback
+                         0x800'4525     0x8  Code  Gb  usbd_conf.o [1]
+HAL_RCC_GetClockConfig   0x800'6943    0x38  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK1Freq     0x800'692d    0x10  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_TIMEx_BreakCallback
+                         0x800'6c6d     0x2  Code  Wk  stm32f4xx_hal_tim_ex.o [1]
+HAL_TIMEx_CommutationCallback
+                         0x800'6c71     0x2  Code  Wk  stm32f4xx_hal_tim_ex.o [1]
+HAL_TIM_Base_Init        0x800'699d    0x1e  Code  Gb  stm32f4xx_hal_tim.o [1]
+HAL_TIM_Base_Start_IT    0x800'69bb    0x16  Code  Gb  stm32f4xx_hal_tim.o [1]
+HAL_TIM_IRQHandler       0x800'69e5   0x14a  Code  Gb  stm32f4xx_hal_tim.o [1]
+HAL_TIM_PeriodElapsedCallback
+                         0x800'6677     0x4  Code  Gb  stm32f4xx_hal_timebase_tim_template.o [1]
+HEAP$$Base              0x2000'3e00           --   Gb  - Linker created -
+HEAP$$Limit             0x2000'de00           --   Gb  - Linker created -
+HardFault_Handler        0x800'7b0f     0x2  Code  Gb  stm32f4xx_it.o [1]
+Init_Encoder             0x800'50a3    0xbe  Code  Gb  main.o [1]
+IntToUnicode             0x800'7a59    0x20  Code  Lc  usbd_desc.o [1]
+LCD_Buffer              0x2000'0314   0x500  Data  Gb  main.o [1]
+LCD_Char                 0x800'4b87    0x74  Code  Gb  main.o [1]
+LCD_Clear                0x800'4b29    0x5e  Code  Gb  main.o [1]
+LCD_I2S_AudioFrequency  0x2000'34a4     0x4  Data  Gb  main.o [1]
+LCD_I2S_AudioResolution
+                        0x2000'344a     0x1  Data  Gb  main.o [1]
+LCD_NeedUpdate          0x2000'0064     0x4  Data  Gb  main.o [1]
+LCD_X                   0x2000'344b     0x1  Data  Gb  main.o [1]
+LCD_Y                   0x2000'344c     0x1  Data  Gb  main.o [1]
+LastTransferSize        0x2000'35fa     0x2  Data  Lc  SAI.o [1]
+MakeSerialNumber         0x800'5953    0x1a  Code  Gb  audio_configuration.o [1]
+MemManage_Handler        0x800'7b11     0x2  Code  Gb  stm32f4xx_it.o [1]
+NMI_Handler              0x800'7b0d     0x2  Code  Gb  stm32f4xx_it.o [1]
+OLED_init                0x800'4c11    0x9a  Code  Gb  main.o [1]
+OLED_string              0x800'4bfb    0x16  Code  Gb  main.o [1]
+OTG_FS_IRQHandler        0x800'7b21     0x6  Code  Gb  stm32f4xx_it.o [1]
+OUTClk_Init              0x800'5977     0x6  Code  Gb  audio_configuration.o [1]
+Param_Data_IC48         0x2000'1c18  0x1000  Data  Gb  main.o [1]
+PendSV_Handler           0x800'7b1b     0x2  Code  Gb  stm32f4xx_it.o [1]
+PlayDescriptionInit      0x800'5933    0x1a  Code  Gb  audio_configuration.o [1]
+Play_SAIMaster           0x800'5821    0x1a  Code  Gb  audio_configuration.o [1]
+PlaybackAudioDescription
+                        0x2000'33cc    0x14  Data  Lc  audio_usb_playback_session.o [1]
+PlaybackFeatureUnitNode
+                        0x2000'34b0    0x54  Data  Lc  audio_usb_playback_session.o [1]
+PlaybackSpeakerOutputNode
+                        0x2000'33e4    0x60  Data  Lc  audio_usb_playback_session.o [1]
+PlaybackSynchroEstimatedCodecFrequency
+                        0x2000'3444     0x4  Data  Lc  audio_usb_playback_session.o [1]
+PlaybackSynchroFirstSofReceived
+                        0x2000'33e0     0x1  Data  Lc  audio_usb_playback_session.o [1]
+PlaybackUSBInputNode    0x2000'3540    0x34  Data  Lc  audio_usb_playback_session.o [1]
+Program_Data_IC48       0x2000'0818  0x1400  Data  Gb  main.o [1]
+R0_COREREGISTER_IC48_Default
+                        0x2000'0814     0x2  Data  Gb  main.o [1]
+R3_HWCONFIGURATION_IC48_Default
+                        0x2000'2c18    0x18  Data  Gb  main.o [1]
+R4_COREREGISTER_IC48_Default
+                        0x2000'0816     0x2  Data  Gb  main.o [1]
+RODUCT_STRINGS          0x2000'2c40    0x10  Data  Gb  usb_audio_descriptors.o [1]
+Region$$Table$$Base      0x800'7c4c           --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'7c6c           --   Gb  - Linker created -
+SAI_ChangeFrequency      0x800'66fd    0x10  Code  Gb  SAI.o [1]
+SAI_ExternalSyncInit     0x800'670d    0x1e  Code  Gb  SAI.o [1]
+SAI_GetLastTransferSize
+                         0x800'672b     0x6  Code  Gb  SAI.o [1]
+SAI_GetRemainingTxSize   0x800'6731     0x8  Code  Gb  SAI.o [1]
+SAI_Init                 0x800'67b5    0x4e  Code  Gb  SAI.o [1]
+SAI_MasterDMAChangeDataSize
+                         0x800'6863    0x12  Code  Gb  SAI.o [1]
+SAI_MasterDMAEnable      0x800'6803     0x4  Code  Gb  SAI.o [1]
+SAI_MasterDMAInit        0x800'6811    0x52  Code  Gb  SAI.o [1]
+SAI_MasterDMAPrepareTx   0x800'6739    0x14  Code  Gb  SAI.o [1]
+SAI_MasterDisable        0x800'677d     0x4  Code  Gb  SAI.o [1]
+SAI_MasterEnable         0x800'674d     0x4  Code  Gb  SAI.o [1]
+SAI_MasterGPIOInit       0x800'6889    0x54  Code  Gb  SAI.o [1]
+SAI_MasterInit           0x800'6791    0x24  Code  Gb  SAI.o [1]
+SAI_MasterMute           0x800'6761     0x8  Code  Gb  SAI.o [1]
+SAI_PLLSAIConfig         0x800'6691    0x6c  Code  Gb  SAI.o [1]
+SIGMA_WRITE_REGISTER_BLOCK
+                         0x800'4d03   0x110  Code  Gb  main.o [1]
+SVC_Handler              0x800'7b17     0x2  Code  Gb  stm32f4xx_it.o [1]
+SetAudioConfigDependedFuncs
+                         0x800'5815     0xc  Code  Gb  audio_configuration.o [1]
+SyncSource              0x2000'35f9     0x1  Data  Lc  audio_configuration.o [1]
+SysTick_Handler          0x800'7b1d     0x4  Code  Gb  stm32f4xx_it.o [1]
+SystemCoreClock         0x2000'2c3c     0x4  Data  Gb  system_stm32f4xx.o [1]
+SystemInit               0x800'7bbd    0x30  Code  Gb  system_stm32f4xx.o [1]
+TIM6_DAC_IRQHandler      0x800'667b     0x6  Code  Gb  stm32f4xx_hal_timebase_tim_template.o [1]
+TIM_Base_SetConfig       0x800'6b2f    0x98  Code  Gb  stm32f4xx_hal_tim.o [1]
+TimHandle               0x2000'3504    0x3c  Data  Gb  stm32f4xx_hal_timebase_tim_template.o [1]
+USBD_AUDIO              0x2000'2c50    0x38  Data  Gb  usbd_audio.o [1]
+USBD_AUDIO_CfgDesc      0x2000'35e8     0x4  Data  Lc  usbd_audio.o [1]
+USBD_AUDIO_CfgDescSize  0x2000'35e4     0x2  Data  Lc  usbd_audio.o [1]
+USBD_AUDIO_ConfigStrDescriptor
+                         0x800'7a1d     0xa  Code  Gb  usbd_desc.o [1]
+USBD_AUDIO_Config_2_0_Stereo
+                         0x800'7728    0xc0  Data  Gb  usb_audio_descriptors.o [1]
+USBD_AUDIO_Config_2_0_Stereo_32_bit
+                         0x800'77e8    0x78  Data  Gb  usb_audio_descriptors.o [1]
+USBD_AUDIO_Config_3_1    0x800'7860    0xb8  Data  Gb  usb_audio_descriptors.o [1]
+USBD_AUDIO_Config_4_0_Quadro
+                         0x800'7918    0xb8  Data  Gb  usb_audio_descriptors.o [1]
+USBD_AUDIO_DataIn        0x800'615f    0x78  Code  Gb  usbd_audio.o [1]
+USBD_AUDIO_DataOut       0x800'6377    0x52  Code  Gb  usbd_audio.o [1]
+USBD_AUDIO_DeInit        0x800'5d87    0x30  Code  Gb  usbd_audio.o [1]
+USBD_AUDIO_DeviceDescriptor
+                         0x800'79d1     0x8  Code  Gb  usbd_desc.o [1]
+USBD_AUDIO_DeviceQualifierDesc
+                        0x2000'2c88     0xc  Data  Lc  usbd_audio.o [1]
+USBD_AUDIO_EP0_RxReady   0x800'61d7    0xf2  Code  Gb  usbd_audio.o [1]
+USBD_AUDIO_EP0_TxReady   0x800'62c9     0x4  Code  Lc  usbd_audio.o [1]
+USBD_AUDIO_GetCfgDesc    0x800'6155     0xa  Code  Gb  usbd_audio.o [1]
+USBD_AUDIO_GetDeviceQualifierDesc
+                         0x800'63c9     0x8  Code  Gb  usbd_audio.o [1]
+USBD_AUDIO_Init          0x800'5d51    0x36  Code  Gb  usbd_audio.o [1]
+USBD_AUDIO_InterfaceStrDescriptor
+                         0x800'7a31     0x2  Code  Gb  usbd_desc.o [1]
+USBD_AUDIO_IsoINIncomplete
+                         0x800'62f9    0x7a  Code  Gb  usbd_audio.o [1]
+USBD_AUDIO_IsoOutIncomplete
+                         0x800'6373     0x4  Code  Lc  usbd_audio.o [1]
+USBD_AUDIO_LangIDStrDescriptor
+                         0x800'79d9     0x8  Code  Gb  usbd_desc.o [1]
+USBD_AUDIO_ManufacturerStrDescriptor
+                         0x800'79e5     0xc  Code  Gb  usbd_desc.o [1]
+USBD_AUDIO_ProductStrDescriptor
+                         0x800'79e1     0x4  Code  Gb  usbd_desc.o [1]
+USBD_AUDIO_RegisterInterface
+                         0x800'63d1    0x18  Code  Gb  usbd_audio.o [1]
+USBD_AUDIO_SOF           0x800'62cd    0x2c  Code  Gb  usbd_audio.o [1]
+USBD_AUDIO_SerialStrDescriptor
+                         0x800'79f1    0x2a  Code  Gb  usbd_desc.o [1]
+USBD_AUDIO_SetInterfaceAlternate
+                         0x800'5db7   0x162  Code  Lc  usbd_audio.o [1]
+USBD_AUDIO_Setup         0x800'5f39   0x21c  Code  Gb  usbd_audio.o [1]
+USBD_ClrClassConfig      0x800'484f     0xa  Code  Gb  usbd_core_ex.o [1]
+USBD_CtlContinueRx       0x800'57b3     0x4  Code  Gb  usbd_ioreq.o [1]
+USBD_CtlContinueSendData
+                         0x800'578f     0x4  Code  Gb  usbd_ioreq.o [1]
+USBD_CtlError            0x800'5721    0x16  Code  Gb  usbd_ctlreq.o [1]
+USBD_CtlPrepareRx        0x800'579f    0x14  Code  Gb  usbd_ioreq.o [1]
+USBD_CtlReceiveStatus    0x800'57d1     0xe  Code  Gb  usbd_ioreq.o [1]
+USBD_CtlSendData         0x800'577f    0x10  Code  Gb  usbd_ioreq.o [1]
+USBD_CtlSendStatus       0x800'57c3     0xe  Code  Gb  usbd_ioreq.o [1]
+USBD_Device             0x2000'0070   0x29c  Data  Gb  main.o [1]
+USBD_DeviceDesc         0x2000'2cc4    0x14  Data  Gb  usbd_desc.o [1]
+USBD_GetString           0x800'5737    0x48  Code  Gb  usbd_ctlreq.o [1]
+USBD_Init                0x800'47f9    0x26  Code  Gb  usbd_core_ex.o [1]
+USBD_LL_ClearStallEP     0x800'4689     0xe  Code  Gb  usbd_conf.o [1]
+USBD_LL_CloseEP          0x800'461d    0x38  Code  Gb  usbd_conf.o [1]
+USBD_LL_DataInStage      0x800'4915    0x9e  Code  Gb  usbd_core_ex.o [1]
+USBD_LL_DataOutStage     0x800'48af    0x66  Code  Gb  usbd_core_ex.o [1]
+USBD_LL_DevConnected     0x800'4a5d     0x4  Code  Gb  usbd_core_ex.o [1]
+USBD_LL_DevDisconnected
+                         0x800'4a61    0x12  Code  Gb  usbd_core_ex.o [1]
+USBD_LL_FlushEP          0x800'466d     0xe  Code  Gb  usbd_conf.o [1]
+USBD_LL_GetRxDataSize    0x800'46e1     0x8  Code  Gb  usbd_conf.o [1]
+USBD_LL_Init             0x800'4555    0xa6  Code  Gb  usbd_conf.o [1]
+USBD_LL_IsStallEP        0x800'4697    0x20  Code  Gb  usbd_conf.o [1]
+USBD_LL_IsoINIncomplete
+                         0x800'4a2d    0x18  Code  Gb  usbd_core_ex.o [1]
+USBD_LL_IsoOUTIncomplete
+                         0x800'4a45    0x18  Code  Gb  usbd_core_ex.o [1]
+USBD_LL_OpenEP           0x800'4609    0x14  Code  Gb  usbd_conf.o [1]
+USBD_LL_PrepareReceive   0x800'46d3     0xe  Code  Gb  usbd_conf.o [1]
+USBD_LL_Reset            0x800'49b3    0x40  Code  Gb  usbd_core_ex.o [1]
+USBD_LL_Resume           0x800'4a09     0xc  Code  Gb  usbd_core_ex.o [1]
+USBD_LL_SOF              0x800'4a15    0x18  Code  Gb  usbd_core_ex.o [1]
+USBD_LL_SetSpeed         0x800'49f3     0x6  Code  Gb  usbd_core_ex.o [1]
+USBD_LL_SetUSBAddress    0x800'46b7     0xe  Code  Gb  usbd_conf.o [1]
+USBD_LL_SetupStage       0x800'4859    0x56  Code  Gb  usbd_core_ex.o [1]
+USBD_LL_StallEP          0x800'467b     0xe  Code  Gb  usbd_conf.o [1]
+USBD_LL_Start            0x800'45fb     0xe  Code  Gb  usbd_conf.o [1]
+USBD_LL_Suspend          0x800'49f9    0x10  Code  Gb  usbd_core_ex.o [1]
+USBD_LL_Transmit         0x800'46c5     0xe  Code  Gb  usbd_conf.o [1]
+USBD_LangIDDesc         0x2000'2cd8     0x4  Data  Gb  usbd_desc.o [1]
+USBD_ParseSetupRequest   0x800'56f5    0x2c  Code  Gb  usbd_ctlreq.o [1]
+USBD_RegisterClass       0x800'481f    0x10  Code  Gb  usbd_core_ex.o [1]
+USBD_SetClassConfig      0x800'4839    0x16  Code  Gb  usbd_core_ex.o [1]
+USBD_SetConfig::cfgidx  0x2000'35fc     0x1  Data  Lc  usbd_ctlreq.o [1]
+USBD_Start               0x800'482f     0xa  Code  Gb  usbd_core_ex.o [1]
+USBD_StdDevReq           0x800'5295   0x2a6  Code  Gb  usbd_ctlreq.o [1]
+USBD_StdEPReq            0x800'5597   0x15e  Code  Gb  usbd_ctlreq.o [1]
+USBD_StdItfReq           0x800'5541    0x56  Code  Gb  usbd_ctlreq.o [1]
+USBD_StrDesc            0x2000'32cc   0x100  Data  Gb  usbd_desc.o [1]
+USBD_StringSerial       0x2000'2cdc    0x1c  Data  Gb  usbd_desc.o [1]
+USBD_error_handler       0x800'5211     0x2  Code  Gb  main.o [1]
+USB_AUDIO_CONFIG_PLAY_FREQENCIES
+                        0x2000'0000    0x10  Data  Gb  audio_usb_nodes.o [1]
+USB_AUDIO_GetConfigDescriptor
+                         0x800'4a81    0x34  Code  Gb  usb_audio_descriptors.o [1]
+USB_ActivateEndpoint     0x800'3591    0x7e  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_ActivateSetup        0x800'3beb    0x2e  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_AudioPlabackSession
+                        0x2000'3574    0x20  Data  Gb  usbd_audio_if.o [1]
+USB_AudioPlaybackGetFeedback
+                         0x800'7679    0x48  Code  Lc  audio_usb_playback_session.o [1]
+USB_AudioPlaybackGetState
+                         0x800'7675     0x4  Code  Lc  audio_usb_playback_session.o [1]
+USB_AudioPlaybackSessionCallback
+                         0x800'7515    0x8e  Code  Lc  audio_usb_playback_session.o [1]
+USB_AudioPlaybackSetAudioStreamingInterfaceAlternateSetting
+                         0x800'75a5    0xce  Code  Lc  audio_usb_playback_session.o [1]
+USB_AudioStreamingFeatureUnitDInit
+                         0x800'7369     0x2  Code  Lc  audio_usb_nodes.o [1]
+USB_AudioStreamingFeatureUnitGetCurVolume
+                         0x800'73c1     0xa  Code  Lc  audio_usb_nodes.o [1]
+USB_AudioStreamingFeatureUnitGetMute
+                         0x800'739d     0xa  Code  Lc  audio_usb_nodes.o [1]
+USB_AudioStreamingFeatureUnitGetStatus
+                         0x800'73f5     0x4  Code  Lc  audio_usb_nodes.o [1]
+USB_AudioStreamingFeatureUnitInit
+                         0x800'72e1    0x7c  Code  Gb  audio_usb_nodes.o [1]
+USB_AudioStreamingFeatureUnitSetCurVolume
+                         0x800'73cd    0x28  Code  Lc  audio_usb_nodes.o [1]
+USB_AudioStreamingFeatureUnitSetMute
+                         0x800'73a9    0x18  Code  Lc  audio_usb_nodes.o [1]
+USB_AudioStreamingFeatureUnitStart
+                         0x800'7375    0x24  Code  Lc  audio_usb_nodes.o [1]
+USB_AudioStreamingFeatureUnitStop
+                         0x800'7399     0x4  Code  Lc  audio_usb_nodes.o [1]
+USB_AudioStreamingInitializeDataBuffer
+                         0x800'73f9    0x14  Code  Gb  audio_usb_nodes.o [1]
+USB_AudioStreamingInputDataReceived
+                         0x800'7139    0xa6  Code  Lc  audio_usb_nodes.o [1]
+USB_AudioStreamingInputGetBuffer
+                         0x800'71e1    0x54  Code  Lc  audio_usb_nodes.o [1]
+USB_AudioStreamingInputInit
+                         0x800'7059    0xa2  Code  Gb  audio_usb_nodes.o [1]
+USB_AudioStreamingInputOutputDeInit
+                         0x800'70fd     0x2  Code  Lc  audio_usb_nodes.o [1]
+USB_AudioStreamingInputOutputGetCurFrequency
+                         0x800'7239     0xa  Code  Lc  audio_usb_nodes.o [1]
+USB_AudioStreamingInputOutputGetMaxPacketLength
+                         0x800'7235     0x4  Code  Lc  audio_usb_nodes.o [1]
+USB_AudioStreamingInputOutputGetState
+                         0x800'72dd     0x4  Code  Lc  audio_usb_nodes.o [1]
+USB_AudioStreamingInputOutputRestart
+                         0x800'7129     0xe  Code  Lc  audio_usb_nodes.o [1]
+USB_AudioStreamingInputOutputSetCurFrequency
+                         0x800'7245    0x98  Code  Lc  audio_usb_nodes.o [1]
+USB_AudioStreamingInputOutputStart
+                         0x800'7101    0x22  Code  Lc  audio_usb_nodes.o [1]
+USB_AudioStreamingInputOutputStop
+                         0x800'7125     0x4  Code  Lc  audio_usb_nodes.o [1]
+USB_CoreInit             0x800'333d    0x6e  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_CoreReset            0x800'3c4d    0x28  Code  Lc  stm32f4xx_ll_usb.o [1]
+USB_DeactivateEndpoint   0x800'3615    0xd4  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_DevConnect           0x800'3b5f     0xe  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_DevDisconnect        0x800'3b6d     0xc  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_DevInit              0x800'33e5   0x13e  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_DisableGlobalInt     0x800'33b3     0x6  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_EP0StartXfer         0x800'3915   0x13e  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_EP0_OutStart         0x800'3c19    0x34  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_EPClearStall         0x800'3ae9    0x5a  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_EPSetStall           0x800'3a97    0x52  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_EPStartXfer          0x800'36ef   0x226  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_EnableGlobalInt      0x800'33ab     0x8  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_FlushRxFifo          0x800'3541    0x1a  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_FlushTxFifo          0x800'3523    0x1e  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_GetDevSpeed          0x800'355b    0x36  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_GetMode              0x800'3be3     0x8  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_I2S_Init             0x800'5161    0xae  Code  Gb  main.o [1]
+USB_ReadDevAllInEpInterrupt
+                         0x800'3b9d     0xe  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_ReadDevAllOutEpInterrupt
+                         0x800'3b8f     0xe  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_ReadDevInEPInterrupt
+                         0x800'3bc1    0x22  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_ReadDevOutEPInterrupt
+                         0x800'3bab    0x16  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_ReadInterrupts       0x800'3b85     0xa  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_ReadPacket           0x800'3a7f    0x18  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_SetCurrentMode       0x800'33bf    0x26  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_SetDevAddress        0x800'3b43    0x16  Code  Gb  stm32f4xx_ll_usb.o [1]
+USB_WritePacket          0x800'3a59    0x26  Code  Gb  stm32f4xx_ll_usb.o [1]
+UsageFault_Handler       0x800'7b15     0x2  Code  Gb  stm32f4xx_it.o [1]
+_LitobFullNoMb           0x800'247d   0x10a  Code  Lc  xprintffull_nomb.o [2]
+_PrintfFullNoMb          0x800'16d9   0xd80  Code  Gb  xprintffull_nomb.o [2]
+_PutcharFullNoMb         0x800'25ed    0x20  Code  Lc  xprintffull_nomb.o [2]
+_PutcharsFullNoMb        0x800'260d    0x2e  Code  Lc  xprintffull_nomb.o [2]
+_SProut                  0x800'2683     0xa  Code  Gb  xsprout.o [2]
+__aeabi_cdcmple          0x800'288d          Code  Gb  DblCmpLe.o [3]
+__aeabi_cdrcmple         0x800'28bd          Code  Gb  DblCmpGe.o [3]
+__aeabi_d2iz             0x800'2a29          Code  Gb  DblToS32.o [3]
+__aeabi_d2uiz            0x800'2db5          Code  Gb  DblToU32.o [3]
+__aeabi_ddiv             0x800'2b6d          Code  Gb  DblDiv.o [3]
+__aeabi_dmul             0x800'2df9          Code  Gb  DblMul.o [3]
+__aeabi_dsub             0x800'2a89          Code  Gb  DblSub.o [3]
+__aeabi_i2d              0x800'2a65          Code  Gb  S32ToDbl.o [3]
+__aeabi_ldiv0            0x800'3339          Code  Gb  I64DivZer.o [4]
+__aeabi_memclr           0x800'6991          Code  Gb  ABImemclr.o [4]
+__aeabi_memclr4          0x800'4a79          Code  Gb  ABImemclr4.o [4]
+__aeabi_memcpy           0x800'2775          Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy4          0x800'2795          Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy8          0x800'2795          Code  Gb  ABImemcpy.o [4]
+__aeabi_ui2d             0x800'2ddd          Code  Gb  U32ToDbl.o [3]
+__aeabi_uldivmod         0x800'2f9d          Code  Gb  I64DivMod.o [4]
+__cmain                  0x800'7cad          Code  Gb  cmain.o [4]
+__data_GetMemChunk       0x800'16a1    0x2c  Code  Gb  xgetmemchunk.o [2]
+__data_GetMemChunk::start
+                        0x2000'35f0     0x4  Data  Lc  xgetmemchunk.o [2]
+__debug_gpioa_afr0      0x2000'0038     0x4  Data  Gb  main.o [1]
+__debug_gpioa_afr1      0x2000'003c     0x4  Data  Gb  main.o [1]
+__debug_gpioa_moder     0x2000'0028     0x4  Data  Gb  main.o [1]
+__debug_gpioa_ospeedr   0x2000'0030     0x4  Data  Gb  main.o [1]
+__debug_gpioa_otyper    0x2000'002c     0x4  Data  Gb  main.o [1]
+__debug_gpioa_pupdr     0x2000'0034     0x4  Data  Gb  main.o [1]
+__debug_gpiob_afr0      0x2000'0020     0x4  Data  Gb  main.o [1]
+__debug_gpiob_afr1      0x2000'0024     0x4  Data  Gb  main.o [1]
+__debug_gpiob_moder     0x2000'0010     0x4  Data  Gb  main.o [1]
+__debug_gpiob_ospeedr   0x2000'0018     0x4  Data  Gb  main.o [1]
+__debug_gpiob_otyper    0x2000'0014     0x4  Data  Gb  main.o [1]
+__debug_gpiob_pupdr     0x2000'001c     0x4  Data  Gb  main.o [1]
+__debug_i2c3_ccr        0x2000'0048     0x4  Data  Gb  main.o [1]
+__debug_i2c3_cr1        0x2000'0040     0x4  Data  Gb  main.o [1]
+__debug_i2c3_cr2        0x2000'0044     0x4  Data  Gb  main.o [1]
+__debug_i2c3_dr         0x2000'0050     0x4  Data  Gb  main.o [1]
+__debug_i2c3_oar1       0x2000'0054     0x4  Data  Gb  main.o [1]
+__debug_i2c3_oar2       0x2000'0058     0x4  Data  Gb  main.o [1]
+__debug_i2c3_sr1        0x2000'005c     0x4  Data  Gb  main.o [1]
+__debug_i2c3_sr2        0x2000'0060     0x4  Data  Gb  main.o [1]
+__debug_i2c3_trise      0x2000'004c     0x4  Data  Gb  main.o [1]
+__debug_rcc_ahb1enr     0x2000'3594     0x4  Data  Gb  main.o [1]
+__debug_rcc_ahb2enr     0x2000'3598     0x4  Data  Gb  main.o [1]
+__debug_rcc_apb1enr     0x2000'359c     0x4  Data  Gb  main.o [1]
+__debug_rcc_cfgr        0x2000'35a4     0x4  Data  Gb  main.o [1]
+__debug_rcc_cr          0x2000'35a0     0x4  Data  Gb  main.o [1]
+__debug_rcc_pllcfgr     0x2000'35a8     0x4  Data  Gb  main.o [1]
+__debug_time3_ccer      0x2000'35ac     0x4  Data  Gb  main.o [1]
+__debug_time3_ccmr1     0x2000'35b0     0x4  Data  Gb  main.o [1]
+__debug_time3_cr1       0x2000'35b8     0x4  Data  Gb  main.o [1]
+__debug_time3_cr2       0x2000'35bc     0x4  Data  Gb  main.o [1]
+__debug_time3_smcr      0x2000'35b4     0x4  Data  Gb  main.o [1]
+__debug_time3_sr        0x2000'35c0     0x4  Data  Gb  main.o [1]
+__encoder_data          0x2000'0068     0x4  Data  Gb  main.o [1]
+__encoder_data_last     0x2000'006c     0x4  Data  Gb  main.o [1]
+__exit                   0x800'16cd          Code  Gb  XXexit.o [4]
+__iar_Fail_s             0x800'26a5    0x1c  Code  Gb  xfail_s.o [2]
+__iar_Memchr             0x800'271d          Code  Gb  memchr.o [4]
+__iar_Memset4_word       0x800'57e1          Code  Gb  ABImemset48.o [4]
+__iar_Memset8_word       0x800'57e1          Code  Gb  ABImemset48.o [4]
+__iar_Memset_word        0x800'6c09          Code  Gb  ABImemset.o [4]
+__iar_Strchr             0x800'268d          Code  Gb  strchr.o [4]
+__iar_dadd               0x800'2a99          Code  Gb  DblSub.o [3]
+__iar_data_init3         0x800'7c25    0x28  Code  Gb  data_init.o [4]
+__iar_dlfree             0x800'113b   0x51e  Code  Gb  dlmalloc.o [2]
+__iar_dlmalloc           0x800'024d   0xeee  Code  Gb  dlmalloc.o [2]
+__iar_dsub               0x800'31cd          Code  Gb  DblAdd.o [3]
+__iar_dsubStart          0x800'31df          Code  Gb  DblAdd.o [3]
+__iar_frexp              0x800'2829          Code  Gb  frexp.o [3]
+__iar_frexp64            0x800'281d          Code  Gb  frexp.o [3]
+__iar_frexpl             0x800'2829          Code  Gb  frexp.o [3]
+__iar_ldexp64            0x800'28ed          Code  Gb  ldexp.o [3]
+__iar_lz77_init_single3
+                         0x800'7a95    0x78  Code  Gb  lz77_init_single.o [4]
+__iar_program_start      0x800'7d0d          Code  Gb  cstartup_M.o [4]
+__iar_scalbln64          0x800'28ed          Code  Gb  ldexp.o [3]
+__iar_scalbn64           0x800'28ed          Code  Gb  ldexp.o [3]
+__iar_zero_init3         0x800'1667    0x3a  Code  Gb  zero_init3.o [4]
+__low_level_init         0x800'7ccb     0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000          Data  Gb  startup_stm32f446xx.o [1]
+_call_main               0x800'7cb9          Code  Gb  cmain.o [4]
+_exit                    0x800'7cd5          Code  Gb  cexit.o [4]
+_gm_                    0x2000'30f4   0x1d8  Data  Lc  dlmalloc.o [2]
+_main                    0x800'7cc7          Code  Gb  cmain.o [4]
+abort                    0x800'1661     0x6  Code  Gb  abort.o [2]
+audio_class_interface   0x2000'2c94    0x14  Data  Gb  usbd_audio_if.o [1]
+default_download_IC48    0x800'4cab     0xa  Code  Gb  main.o [1]
+err_count               0x2000'34ac     0x4  Data  Gb  main.o [1]
+exit                     0x800'7ccf     0x4  Code  Gb  exit.o [2]
+free                     0x800'6997     0x4  Code  Gb  heaptramp0.o [2]
+frexp                    0x800'281d          Code  Gb  frexp.o [3]
+frexpl                   0x800'281d          Code  Gb  frexp.o [3]
+get_usb_full_speed_rate
+                         0x800'5f19    0x20  Code  Lc  usbd_audio.o [1]
+hi2c3                   0x2000'3450    0x54  Data  Gb  main.o [1]
+hpcd                    0x2000'2cf8   0x3fc  Data  Gb  usbd_conf.o [1]
+init_mparams             0x800'01df    0x2c  Code  Lc  dlmalloc.o [2]
+init_top                 0x800'020b    0x34  Code  Lc  dlmalloc.o [2]
+ldexp                    0x800'28ed          Code  Gb  ldexp.o [3]
+ldexpl                   0x800'28ed          Code  Gb  ldexp.o [3]
+main                     0x800'4e13   0x290  Code  Gb  main.o [1]
+memchr                   0x800'271d          Code  Gb  memchr.o [4]
+mparams                 0x2000'35c4    0x18  Data  Lc  dlmalloc.o [2]
+scalbln                  0x800'28ed          Code  Gb  ldexp.o [3]
+scalblnl                 0x800'28ed          Code  Gb  ldexp.o [3]
+scalbn                   0x800'28ed          Code  Gb  ldexp.o [3]
+scalbnl                  0x800'28ed          Code  Gb  ldexp.o [3]
+scale                    0x800'2587    0x46  Code  Lc  xprintffull_nomb.o [2]
+sec_hand                0x2000'35f4     0x4  Data  Lc  xfail_s.o [2]
+segment_holding          0x800'01c5    0x1a  Code  Lc  dlmalloc.o [2]
+sendCommand              0x800'4ae1    0x10  Code  Gb  main.o [1]
+sprintf                  0x800'63fd    0x40  Code  Gb  sprintf.o [2]
+strchr                   0x800'268d          Code  Gb  strchr.o [4]
+strlen                   0x800'26e5          Code  Gb  strlen.o [4]
+temp                    0x2000'3448     0x2  Data  Gb  main.o [1]
+temp_char               0x2000'030c     0x8  Data  Gb  main.o [1]
+uwTick                  0x2000'2c34     0x4  Data  Gb  stm32f4xx_hal.o [1]
+uwTickFreq              0x2000'2c30     0x1  Data  Gb  stm32f4xx_hal.o [1]
+uwTickPrio              0x2000'2c38     0x4  Data  Gb  stm32f4xx_hal.o [1]
+
+
+[1] = G:\cloud\manager\Электроника\ЦАП\DA-07\V2\USB_I2S_PRIME_SUPER_v1.4\Debug\Obj
+[2] = dl7M_tln.a
+[3] = m7M_tl.a
+[4] = rt7M_tl.a
+
+  31'510 bytes of readonly  code memory
+   2'087 bytes of readonly  data memory
+  56'829 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
